@@ -1,5 +1,7 @@
 # Go Life Sim
 
+![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/matteo-gildone/go-life-sim)
+
 A git-inspired command-line interface for creating life sim app and explore Italian folklore.
 Built with Go and designed for speed, simplicity and extensibility.
 
