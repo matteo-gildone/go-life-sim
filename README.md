@@ -1,6 +1,7 @@
 # Go Life Sim
 
 ![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/matteo-gildone/go-life-sim)
+![GitHub License](https://img.shields.io/github/license/matteo-gildone/go-life-sim)
 
 A git-inspired command-line interface for creating life sim app and explore Italian folklore.
 Built with Go and designed for speed, simplicity and extensibility.
@@ -34,7 +35,7 @@ make build
 - [ ] Make file
 - [ ] Dispatcher package
 - [ ] Auto register commands in the init function
-- [ ] All commands print something but nothing is created (no real implementation)
+- [ ] All commands output correct messages but no real implementation
 
 ##  Commands
 
@@ -47,18 +48,27 @@ make build
 
 ### Character commands
 
-| Command name | Description          | Implementation |
-|--------------|----------------------|----------------|
-| `create`     | Create new character | ❌              |
-| `help`       | List all subcommands | ❌              |
+| Command name              | Description          | Implementation |
+|---------------------------|----------------------|----------------|
+| `list`                    | List of characters   | ❌              |
+| `create <character name>` | Create new character | ❌              |
+| `help`                    | List all subcommands | ❌              |
 
 ### Class commands
 
-| Command name         | Description               | Implementation |
-|----------------------|---------------------------|----------------|
-| `class`              | List of classes           | ❌              |
-| `class <class name>` | Assign class to character | ❌              |
-| `help`               | List all subcommands      | ❌              |
+| Command name   | Description               | Implementation |
+|----------------|---------------------------|----------------|
+| `list`         | List of classes           | ❌              |
+| `<class name>` | Assign class to character | ❌              |
+| `help`         | List all subcommands      | ❌              |
+
+### Job commands
+
+| Command name   | Description             | Implementation |
+|----------------|-------------------------|----------------|
+| `list`         | List of jobs            | ❌              |
+| `<class name>` | Assign job to character | ❌              |
+| `help`         | List all subcommands    | ❌              |
 
 ## 📚Resources
 
