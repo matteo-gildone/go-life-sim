@@ -70,6 +70,13 @@ make build
 | `<class name>` | Assign job to character | ❌              |
 | `help`         | List all subcommands    | ❌              |
 
+## 📝Architecture 
+
+See Architecture Decision Record for detailed technical decision:
+
+- [Command dispatcher](docs/decisions/DISPATCHER.md)
+- [Structs](docs/decisions/STRUCTS.md)
+
 ## 📚Resources
 
 - [The Go Programming Language](https://www.gopl.io/)
