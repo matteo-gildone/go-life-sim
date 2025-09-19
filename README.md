@@ -80,6 +80,7 @@ See Architecture Decision Record for detailed technical decision:
 ## 📚Resources
 
 - [The Go Programming Language](https://www.gopl.io/)
+- [Effective Go](https://go.dev/doc/effective_go)
 - [Command Line Interface Guidelines](https://clig.dev/)
 
 ---
